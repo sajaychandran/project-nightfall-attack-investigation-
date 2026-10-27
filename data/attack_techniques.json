@@ -1,0 +1,20 @@
+{
+  "metadata": {
+    "attack_version": "v15",
+    "domain": "enterprise-attack",
+    "source_url": "https://github.com/mitre-attack/attack-stix-data/releases/tag/MA v15.1",
+    "retrieved": "2026-02-12",
+    "provenance": "Locally maintained subset verified against the official MITRE ATT&CK Enterprise v15 catalogue. It is not the complete STIX release."
+  },
+  "techniques": [
+    {"technique_id":"T1566","name":"Phishing","tactic":"Initial Access","description":"Adversaries may send phishing messages to gain access or information.","subtechniques":["T1566.001","T1566.002","T1566.003"]},
+    {"technique_id":"T1566.002","name":"Phishing: Spearphishing Link","tactic":"Initial Access","description":"Adversaries may send spearphishing messages with a link to gain access.","subtechniques":[]},
+    {"technique_id":"T1059","name":"Command and Scripting Interpreter","tactic":"Execution","description":"Adversaries may abuse command and script interpreters to execute commands.","subtechniques":["T1059.001","T1059.003","T1059.007"]},
+    {"technique_id":"T1059.001","name":"Command and Scripting Interpreter: PowerShell","tactic":"Execution","description":"Adversaries may abuse PowerShell commands and scripts for execution.","subtechniques":[]},
+    {"technique_id":"T1057","name":"Process Discovery","tactic":"Discovery","description":"Adversaries may attempt to get information about running processes.","subtechniques":[]},
+    {"technique_id":"T1518.001","name":"Software Discovery: Security Software Discovery","tactic":"Discovery","description":"Adversaries may attempt to get a listing of security software.","subtechniques":[]},
+    {"technique_id":"T1082","name":"System Information Discovery","tactic":"Discovery","description":"Adversaries may attempt to get detailed information about the operating system and hardware.","subtechniques":[]},
+    {"technique_id":"T1041","name":"Exfiltration Over C2 Channel","tactic":"Exfiltration","description":"Adversaries may exfiltrate data over an existing command and control channel.","subtechniques":[]}
+  ]
+}
+
